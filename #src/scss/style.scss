@@ -1,0 +1,56 @@
+@import 'fonts';
+@import 'header';
+@import 'breadcrumps';
+@import 'banner';
+@import 'content';
+//НЕБОЛЬШОЕ ОБНУЛЕНИЕ
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border: none;
+}
+input:focus, textarea:focus, select:focus, button {
+    outline: none !important;
+  }
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+    position: relative;
+}
+a{ 
+    color: black;
+    text-decoration: none;
+    &:visited{
+    }
+}
+li{
+    list-style: none;
+}
+//ЗАТЕМНЕНИЕ
+.wrapper{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    &.shadow{
+        &::before{
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            z-index: 20;
+            background-color: rgba(0,0,0,0.5);
+        }
+    }
+    
+}
+//БЛОК ПРОКРУТКИ ПРИ ТЕЛЕФОННОМ МЕНЮ
+body.lock{
+    overflow: hidden;
+}

@@ -1,0 +1,7 @@
+@@include('catalog-button&tabs.js')
+@@include('ibg.js')
+@@include('slider-options.js')
+@@include('raiting.js')
+@@include('fixed-menu.js')
+@@include('burger-menu.js')
+@@include('header-row.js')

@@ -1,0 +1,14 @@
+[1010/171153.019:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[1012/143331.554:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[1013/183703.421:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[1014/192826.968:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[1014/222300.476:ERROR:process_info.cc(329)] VirtualQueryEx: Отказано в доступе. (0x5)
+[1014/222300.478:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[1014/222300.478:ERROR:process_memory_win.cc(39)] Failed to initialize ProcessInfo.
+[1014/222300.478:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Попытка доступа к процессу, выполняющему процедуру завершения. (0xc000010a)
+[1016/174916.265:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[1016/191436.880:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[1016/191436.880:ERROR:exception_snapshot_win.cc(99)] thread ID 12900 not found in process
+[1016/191436.880:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Попытка доступа к процессу, выполняющему процедуру завершения. (0xc000010a)
+[1018/214912.139:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[1019/184156.097:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
